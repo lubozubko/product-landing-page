@@ -12,9 +12,11 @@ html {
 .header-container {
     width: 100%;
     display: flex;
+    position: fixed;
     align-items: center;
     justify-content: space-between;
     background: rgb(0, 0, 0);
+    z-index: 5;
 }
 
 ul {
@@ -162,7 +164,6 @@ input[type="submit"]:hover {
     height: 50%;
 }
 
-
 .price {
     color: #222222;
     padding: 0px 5px;
@@ -172,4 +173,41 @@ input[type="submit"]:hover {
 .product-desc {
     padding: 0px 10px 15px 10px;
     font-size: 12px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: #1a1a1a;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.copyright {
+    margin: 5px;
+}
+.footer > p {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.footer-social > .fab {
+    padding: 0 5px;
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+.footer-social > .fab:hover {
+    opacity: 0.9;
+    color: rgb(233, 0, 6);
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
 }
