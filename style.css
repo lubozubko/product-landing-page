@@ -134,7 +134,7 @@ input[type="submit"]:hover {
 }
 .product-heading {
     width: 100%;
-    padding: 25px 45px;
+    padding: 75px 45px 25px 45px;
 }
 
 #video {
@@ -212,6 +212,7 @@ footer {
 
 .list-inline {
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
