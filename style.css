@@ -223,11 +223,6 @@ footer {
 
 /* media queries */
 
-@media (min-width: 320px) {
-
-
-}
-
 @media (min-width: 769px) {
     .header-container {
         flex-direction: column;
@@ -243,7 +238,7 @@ footer {
 
 }
 
-@media (min-width: 1025px) {
+@media (min-device-width: 1025px) and (min-width: 762px) {
     .header-container {
         flex-direction: row;
         align-items: center;
